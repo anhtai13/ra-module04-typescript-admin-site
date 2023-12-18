@@ -75,9 +75,6 @@ function userForm({ userId, onSubmit, onCancel }: UserFormProps) {
     const name = event.target.name;
     const value = event.target.value;
 
-    console.log("----name", name);
-    console.log("--------------vl", value);
-
     switch (name) {
       case "password":
         setPassword(value);
